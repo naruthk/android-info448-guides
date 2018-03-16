@@ -29,7 +29,7 @@ This guide serves as an additional resource for students who are enrolled in the
     - [Must I use this?](#must-i-use-this)
     - [Can I reproduce/fork/share this repository?](#can-i-reproduceforkshare-this-repository)
     - [I see a typo or mistake in this guide](#i-see-a-typo-or-mistake-in-this-guide)
-    - [About the person who wrote this guide](#about-the-person-who-wrote-this-guide)
+    - [About me](#about-me)
 
 <!-- /TOC -->
 
@@ -39,16 +39,20 @@ This guide serves as an additional resource for students who are enrolled in the
 
 ### Concepts
 
-- Activities
+- [Activities](concepts/Activities.md)
 - Adapters
 - [Android](concepts/Android.md)
+- Android Emulator
+- Android Manifest
 - [Architecture](concepts/Architecture.md)
+- APK
 - Components
 - Concurrency
 - Fragments
-- Gradle
+- [Gradle](concepts/Gradle.md)
 - Graphics
 - Intents
+- [Instant Run](concepts/Instant_Run.md)
 - Layouts
 - Location
 - Logging (Debugging)
@@ -57,36 +61,26 @@ This guide serves as an additional resource for students who are enrolled in the
 - Resources
 - Storage
 - Views
-- XML
+- [XML](concepts/XML.md)
 
 ### Homework Hints
 
-- Homework 1:
-- Homework 2:
-- Homework 3:
-- Homework 4:
-- Homework 5:
-- Homework 6:
+Coming soon.
 
 ### Resources
 
+- [Helpful links](resources/Helpful_Links.md)
 - Brushing up Java basics
-- Android Style Guide
-- Helpful links
 - Android Studio plugins & editor
 - Useful tutorials
-- Books
-- YouTube videos
-- Articles to read
 - Help when struggling
 - Testing apps
 
 ### Exploration
 
-- Building an actual app
 - Publishing to Google Play Store
 - Open source contribution
-- Looking at other people's source code
+- [Native vs. Non-native Apps](explore/Native_Non-native.md)
 
 ---
 
@@ -120,9 +114,9 @@ Do as you wish. This massive guide is created to help you all.
 
 Feel free to make an edit and submit a pull request. I'll take a look at it.
 
-### About the person who wrote this guide
+### About me
 
-I'm **Naruth**. I also go by Sam. I am a current senior at the University of Washington, majoring in Communications and minoring in Informatics.
+I'm **Naruth**. Feel free to call me Sam. I am a current senior at the University of Washington, majoring in Communications and minoring in Informatics.
 
 Explore more about me by checking out my website: [naruthk.com](http://www.naruthk.com).
 

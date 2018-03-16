@@ -13,7 +13,7 @@ There are 6 major components for the Android Platform.
 
 ![Android architecture. Image by Wikimedia Commons](/images/architecture.png)
 
-Rather than going up the stack of architecture components, let's start from the top and go down each one.
+Rather than going up the stack of architecture components, let's start from the top and go down each one!
 
 ## System Apps
 
@@ -43,6 +43,4 @@ When you withdrew money from the ATM, you don't actually see how money came out 
 
 ## Linux Kernel
 
-If the Linux Kernel is a team, then this team is behind everything we've learned. This hard-working team makes sure that our phone and apps we use run smoothly by utilizing as many people as possible to do things at once(threading and low-level memory management).
-
-So it's safe to say that your Android phone is a Linux computer!
+If Linux Kernel is a person, then he's the main man behind all the other layers we've learned about so far. This hard-working person manages different things that are happening with your phone at once (threading and low-level memory management).
