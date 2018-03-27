@@ -2,11 +2,9 @@
 
 ## About this guide
 
-The world of mobile development is huge and difficult to navigate, especially for beginners who are interested in launching a career or an app in popular stores like the Google Play Store and the Apple App Store.
+This repository aims to provide invaluable tips, advice, and resources beyond what the course slides offers in order to make you become a better Android developer.
 
-As a TA for this course, I've decided to create a guide that offers user-friendly resources, such as concept explanation, useful articles, and hints to homework assignments. This guide also tries to present information in [layman's term](https://en.wikipedia.org/wiki/Plain_English) as much as possible. This will ensure that any programmer can understand the context in an easier way.
-
-This guide serves as an additional resource for students who are enrolled in the **INFO 448 Mobile Development: Android** course.
+If there is any additional topic you want me to write about, submit an issue to this repository or to my email address, which is  **naruthk@uw.edu**. Happy to help/write more content!
 
 ---
 
@@ -26,10 +24,8 @@ This guide serves as an additional resource for students who are enrolled in the
     - [What kind of content does the guide include?](#what-kind-of-content-does-the-guide-include)
     - [How to best use this guide?](#how-to-best-use-this-guide)
     - [I've heard Prof. Joel Ross has his lecture notes posted on GitHub. How is this different?](#ive-heard-prof-joel-ross-has-his-lecture-notes-posted-on-github-how-is-this-different)
-    - [Must I use this?](#must-i-use-this)
     - [Can I reproduce/fork/share this repository?](#can-i-reproduceforkshare-this-repository)
-    - [I see a typo or mistake in this guide](#i-see-a-typo-or-mistake-in-this-guide)
-    - [About me](#about-me)
+    - [I see a typo or mistake in this guide.](#i-see-a-typo-or-mistake-in-this-guide)
 
 <!-- /TOC -->
 
@@ -53,9 +49,11 @@ This guide serves as an additional resource for students who are enrolled in the
 - Graphics
 - Intents
 - [Instant Run](concepts/Instant_Run.md)
+- [Kotlin](concepts/Kotlin.md)
 - Layouts
 - Location
 - Logging (Debugging)
+- MVP (Model-View-Presenter)
 - Permissions
 - Providers
 - Resources
@@ -65,7 +63,7 @@ This guide serves as an additional resource for students who are enrolled in the
 
 ### Homework Hints
 
-Coming soon.
+Will be updated soon. See Canvas -> Assignments section for all homework assignments and their due dates.
 
 ### Resources
 
@@ -78,6 +76,7 @@ Coming soon.
 
 ### Exploration
 
+- Taking Android development to the next level with Dagger 2, RxJava, Flutter
 - Publishing to Google Play Store
 - Open source contribution
 - [Native vs. Non-native Apps](explore/Native_Non-native.md)
@@ -102,22 +101,10 @@ I try to keep the explanations of key ideas and other information very simple he
 
 Professor Joel Ross's [Android Development: Lecture Notes](https://info448-s17.github.io/lecture-notes/) are super great and useful, but I think it's a bit too formal and technical.
 
-### Must I use this?
-
-Nope. But I recommend you "star" this repository for easy references.
-
 ### Can I reproduce/fork/share this repository?
 
 Do as you wish. This massive guide is created to help you all.
 
-### I see a typo or mistake in this guide
+### I see a typo or mistake in this guide.
 
-Feel free to make an edit and submit a pull request. I'll take a look at it.
-
-### About me
-
-I'm **Naruth**. Feel free to call me Sam. I am a current senior at the University of Washington, majoring in Communications and minoring in Informatics.
-
-Explore more about me by checking out my website: [naruthk.com](http://www.naruthk.com).
-
-To contact me, send me an email to [naruthk@uw.edu](mailto:naruthk@uw.edu).
+Feel free to make an edit and submit a pull request. I'll take a look at it. Or, send me an email!

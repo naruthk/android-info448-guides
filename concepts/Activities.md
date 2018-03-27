@@ -1,6 +1,6 @@
 # Activities
 
-An **activity** represents a screen that the user sees. Sometimes people refer to each screen as a presentation layer.
+An **activity** represents a screen that the user sees. Sometimes people refer to each screen as the presentation layer.
 
 Here's the actual definition from the official [document](https://developer.android.com/reference/android/app/Activity.html): "*An activity is a single, focused thing that the user can do.*"
 
