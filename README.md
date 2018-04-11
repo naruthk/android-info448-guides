@@ -97,14 +97,20 @@ In progress.
 ### Lecture: Going Beyond
 
 - Week 1: March 27th and 29th
-  - Links:
-  - Code:
+  - Takeaway:
+    - Install Android Studio (3.0 or above), Android 4.0 (Kitkat) for SDK, and an emulator of choice
+    - Windows user and looking for a way to connect your Android phone to Android Studio? Install [OEM driver](https://developer.android.com/studio/run/oem-usb.html).
 - Week 2: April 3rd and 5th
   - Links:
-  - Code:
+    - Callicoders - [Kotlin's Inheritance](https://www.callicoder.com/kotlin-inheritance/)
+    - Callicoders - [Kotlin's Classes, Objects, Constructors, Initializers](https://www.callicoder.com/kotlin-classes-objects-constructors-initializers/)
 - Week 3: April 10th and 12th
-  - Links:
-  - Code:
+  - Takeaway:
+    - Activity Lifecycle: [Link](http://developer.android.com/guide/components/activities.html)
+    - `log`, its levels, and the `logcat`
+    - How toasts are created and used
+    - How notification works and are programmed
+    - Making alerts!
 
 ---
 
@@ -137,18 +143,32 @@ Aside from external links that you might be finding useful to help you tackle th
   - Enumerators: [Enum Classes - Kotlin](https://kotlinlang.org/docs/reference/enum-classes.html)
   - `.invoke()` function: [Invoke - Kotlin](https://kotlinlang.org/docs/reference/operator-overloading.html#invoke)
   - Stackoverflow - [Why .fold() and why not .reduce()?](https://stackoverflow.com/questions/44429419/what-is-basic-difference-between-fold-and-reduce-in-kotlin-when-to-use-which)
-- Homework 4:
+- Homework 4: **Activity Spy**
+  - [Android's `Log`](https://developer.android.com/reference/android/util/Log.html)
+    - Make sure you know how the `Log` is called and used.
+  - [Activity Lifecycle](https://developer.android.com/guide/components/activities/activity-lifecycle.html)
+  - [Debugging `LogCat`](http://developer.android.com/tools/debugging/debugging-log.html)
+    - Commands:
+      - `adb logcat`: Runs logcat
+      - `adb logcat -f file`: Writes to file
 
 ---
 
 ### Lab Meetings
 
 - Week 1: March 28th
-  - Slides:
+  - Slides: [Week 1](https://slides.com/naruthkongurai/week-1-introduction)
+  - Main Takeaway:
+    - Introduction to section
+    - Getting to know each other
+    - How each section meeting will be run
 - Week 2: April 4th
-  - Slides:
-- Week 3: April 11th
-  - Slides
+  - Slides: [Week 2](https://slides.com/naruthkongurai/week-2-kotlin)
+  - Main Takeaway:
+    - Genymotion and Vysor
+    - Kotlin Syntax and Functions
+- Week 3: April 11th (Cancelled)
+- Week 4: April 18th
 
 ---
 
