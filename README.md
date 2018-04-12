@@ -104,13 +104,19 @@ In progress.
   - Links:
     - Callicoders - [Kotlin's Inheritance](https://www.callicoder.com/kotlin-inheritance/)
     - Callicoders - [Kotlin's Classes, Objects, Constructors, Initializers](https://www.callicoder.com/kotlin-classes-objects-constructors-initializers/)
-- Week 3: April 10th and 12th
-  - Takeaway:
+- Week 3:
+  - April 10th
     - Activity Lifecycle: [Link](http://developer.android.com/guide/components/activities.html)
     - `log`, its levels, and the `logcat`
     - How toasts are created and used
     - How notification works and are programmed
     - Making alerts!
+  - April 12th
+    - Android Example - [Layout examples](https://androidexample.com/LAYOUTS/index.php?view=examplecloud&scat=11)
+    - Tutorials Point - [User Interface Layouts](https://www.tutorialspoint.com/android/android_user_interface_layouts.htm)
+    - Best practices when it comes to [organizing XML files](https://github.com/futurice/android-best-practices#resources)
+    - Try this! Udacity's [Android Visualizer](https://labs.udacity.com/android-visualizer/#/android/sandbox)
+    - [Advance `findViewById`](https://medium.com/@quiro91/improving-findviewbyid-with-kotlin-4cf2f8f779bb) thanks to Kotlin
 
 ---
 
