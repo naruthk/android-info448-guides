@@ -147,6 +147,7 @@ Aside from external links that you might be finding useful to help you tackle th
   - [Android's `Log`](https://developer.android.com/reference/android/util/Log.html)
     - Make sure you know how the `Log` is called and used.
   - [Activity Lifecycle](https://developer.android.com/guide/components/activities/activity-lifecycle.html)
+    - Make sure you have a sense of how each event, namely `onCreate`, `onStop`, and particularly `onDestroy`, is triggered. The assignment asks that the `onDestroy` event is triggered and that this event is produced in the log file.
   - [Debugging `LogCat`](http://developer.android.com/tools/debugging/debugging-log.html)
     - Commands:
       - `adb logcat`: Runs logcat
