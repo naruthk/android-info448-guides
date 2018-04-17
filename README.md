@@ -117,6 +117,11 @@ In progress.
     - Best practices when it comes to [organizing XML files](https://github.com/futurice/android-best-practices#resources)
     - Try this! Udacity's [Android Visualizer](https://labs.udacity.com/android-visualizer/#/android/sandbox)
     - [Advance `findViewById`](https://medium.com/@quiro91/improving-findviewbyid-with-kotlin-4cf2f8f779bb) thanks to Kotlin
+- Week 4:
+  - April 17th
+    - Model-View-Controller (Basic architecture we're asking you to based your structure on): [Android Architectural Pattern 1](https://medium.com/upday-devs/android-architecture-patterns-part-1-model-view-controller-3baecef5f2b6)
+    - Advance MVC - [List of Common Patterns](https://www.raywenderlich.com/168038/common-design-patterns-android-kotlin)
+    - MVC Siblings (MVP, MVVM, etc.): [A thorough analysis of their differences](https://academy.realm.io/posts/eric-maxwell-mvc-mvp-and-mvvm-on-android/)
 
 ---
 
@@ -158,6 +163,12 @@ Aside from external links that you might be finding useful to help you tackle th
     - Commands:
       - `adb logcat`: Runs logcat
       - `adb logcat -f file`: Writes to file
+- Homework 5: **Tip Calculator** (Due April 17)
+  - Make sure you know how to parse a `String` into a `Double`
+  - `findViewById<T>(R.id.name_of_object) as T` in important part to remember!
+  - Kotlin's `onClickListener` is different from that of Java. Make sure that the syntax is right!
+- Homework 6: **Life Counter** (Due April 19)
+  - Make sure you understand how each layout in Android works in order to "equally balanced" the app on each device.
 
 ---
 
