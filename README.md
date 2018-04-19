@@ -169,24 +169,34 @@ Aside from external links that you might be finding useful to help you tackle th
   - Kotlin's `onClickListener` is different from that of Java. Make sure that the syntax is right!
 - Homework 6: **Life Counter** (Due April 19)
   - Make sure you understand how each layout in Android works in order to "equally balanced" the app on each device.
+  - A good approach for solving orientation issues is to use [Constraint Layout](https://developer.android.com/training/constraint-layout/index.html)!
+  - There are lots of ways to solve the layout issue. You can, if you want to, nest Linear Layouts inside a Relative Layout that is acting as a parent element. Whatever you choose, make sure it fits the design that you're trying to achieve.
 
 ---
 
 ### Lab Meetings
 
 - Week 1: March 28th
-  - Slides: [Week 1](https://slides.com/naruthkongurai/week-1-introduction)
+  - Slides: [Week 1](https://slides.com/naruthkongurai/info448-android-w1)
   - Main Takeaway:
     - Introduction to section
     - Getting to know each other
     - How each section meeting will be run
 - Week 2: April 4th
-  - Slides: [Week 2](https://slides.com/naruthkongurai/week-2-kotlin)
+  - Slides: [Week 2](https://slides.com/naruthkongurai/info448-android-w2)
   - Main Takeaway:
     - Genymotion and Vysor
     - Kotlin Syntax and Functions
 - Week 3: April 11th (Cancelled)
 - Week 4: April 18th
+  - Slides: [Week 4](http://slides.com/naruthkongurai/info448-android-w4)
+  - Main Takeway:
+    - Model-View-Controller (MVC)
+    - Model-View-Presenter (MVP)
+    - Different layouts in Android (Relative Layout, Linear Layout, Constraints Layout, etc.)
+    - [Website for all-things ConstriantLayout](https://constraintlayout.com)
+      - Get started [here](https://constraintlayout.com/basics/create_constraint.html)
+      - Offers tutorials on how to work with ConstraintLayout, what properties such as `Constriant Bias`, `Margin`, `Padding`, and `Barrier` are
 
 ---
 
