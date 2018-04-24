@@ -122,6 +122,28 @@ In progress.
     - Model-View-Controller (Basic architecture we're asking you to based your structure on): [Android Architectural Pattern 1](https://medium.com/upday-devs/android-architecture-patterns-part-1-model-view-controller-3baecef5f2b6)
     - Advance MVC - [List of Common Patterns](https://www.raywenderlich.com/168038/common-design-patterns-android-kotlin)
     - MVC Siblings (MVP, MVVM, etc.): [A thorough analysis of their differences](https://academy.realm.io/posts/eric-maxwell-mvc-mvp-and-mvvm-on-android/)
+  - April 19th
+    - [Implementing `TabHost` in Android](https://www.viralandroid.com/2015/09/simple-android-tabhost-and-tabwidget-example.html)
+    - ListView and GridView:
+      - These require you to implement `Adapters` and `AdapterView` for them to function properly.
+      - In easy terms, think of an **Adapter** is the person that works behind the scenes to tell the ListView what to display and what data to fetch. The **AdapterView** is the Adapter’s boss. So the hierarchy goes like this: `ListView` <- `AdapterView` <- `Adapter` <- `Data` !
+    - RecyclerView is also fundamental! But, it comes with a steep learning curve.
+- Week 5:
+  - April 24th
+    - [Intents](https://developer.android.com/reference/android/content/Intent.html)
+    - [Dialogs](https://developer.android.com/guide/topics/ui/dialogs.html)
+      - An `AlertDialog` has been the fundamental way to creating dialogs for many years.
+      - But you can also implement a Custom `Dialog` class (but this involves using `Fragments` at some point)
+    - Fragments - [Official documentation](https://developer.android.com/guide/components/fragments.html)
+      - Make sure to understand its lifecycle (yes it closely resembles an Activity's lifecycle too!)
+      - Two things you need to create fragments are:
+        - XML for its layout AND a class that implements `Fragment`
+      - Understand the [Performing Fragment](https://developer.android.com/guide/components/fragments.html#Transactions) Transactions section from the documentation
+      - Examples & Tutorials:
+        - [Kotlin's Simple Fragment Example](https://github.com/kmvignesh/Fragment)
+        - Beyond scope of this class - [Implementing a Custom `FragmentManager` to reduce errors when dealing with fragment transaction](https://medium.com/thoughts-overflow/how-to-add-a-fragment-in-kotlin-way-73203c5a450b)
+        - [Step-by-step tutorial for creating fragments](https://www.techotopia.com/index.php/An_Introduction_to_Kotlin_Android_Fragments)
+        - [Using Fragments in Android](https://www.techotopia.com/index.php/Using_Fragments_in_Android_Studio_-_A_Kotlin_Example) - The example involves creating and using a Tab bar, which is not what we have taught you yet.
 
 ---
 
@@ -171,6 +193,13 @@ Aside from external links that you might be finding useful to help you tackle th
   - Make sure you understand how each layout in Android works in order to "equally balanced" the app on each device.
   - A good approach for solving orientation issues is to use [Constraint Layout](https://developer.android.com/training/constraint-layout/index.html)!
   - There are lots of ways to solve the layout issue. You can, if you want to, nest Linear Layouts inside a Relative Layout that is acting as a parent element. Whatever you choose, make sure it fits the design that you're trying to achieve.
+- Homework 7-10 (QuizDroid):
+  - Intent:
+    - `Intents` are used to go from one Activity to another and they also allow you to pass data in the process.
+    - Many ways are available for you to pass an object (`String`, `ArrayList`, and etc.) to another Activity!
+  - Fragments:
+    - Learn more about them before diving into the code itself. Lots of resources are provided (see the [Lecture: Going Beyond](#lecture-going-beyond) section)
+    - See section's slide on Apr 25th (Week 5) to learn more about Fragments.
 
 ---
 
@@ -197,6 +226,8 @@ Aside from external links that you might be finding useful to help you tackle th
     - [Website for all-things ConstriantLayout](https://constraintlayout.com)
       - Get started [here](https://constraintlayout.com/basics/create_constraint.html)
       - Offers tutorials on how to work with ConstraintLayout, what properties such as `Constriant Bias`, `Margin`, `Padding`, and `Barrier` are
+- Week 5: April 25th
+  - Slides: [Week 5](https://slides.com/naruthkongurai/info448-android-w5) 
 
 ---
 
