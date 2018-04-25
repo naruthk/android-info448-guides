@@ -135,6 +135,7 @@ In progress.
       - An `AlertDialog` has been the fundamental way to creating dialogs for many years.
       - But you can also implement a Custom `Dialog` class (but this involves using `Fragments` at some point)
     - Fragments - [Official documentation](https://developer.android.com/guide/components/fragments.html)
+      - Source of GitHub repo that Ted uses to teach Fragment: [CW-Omnibus - Dynamic Fragment Demo](https://github.com/commonsguy/cw-omnibus/tree/master/Fragments/Dynamic)
       - Make sure to understand its lifecycle (yes it closely resembles an Activity's lifecycle too!)
       - Two things you need to create fragments are:
         - XML for its layout AND a class that implements `Fragment`
