@@ -16,9 +16,7 @@ Something interesting you want to point out or let me cover on, submit an issue 
   - [About this guide](#about-this-guide)
   - [Table of Content](#table-of-content)
   - [Topics](#topics)
-    - [Kotlin Basic](#kotlin-basic)
     - [Kotlin Style Guide](#kotlin-style-guide)
-    - [Android Core Concepts](#android-core-concepts)
     - [Lecture: Going Beyond](#lecture-going-beyond)
     - [Homework Hints](#homework-hints)
     - [Lab Meetings](#lab-meetings)
@@ -49,11 +47,11 @@ Something interesting you want to point out or let me cover on, submit an issue 
 
 ## Topics
 
-### Kotlin Basic
+<!-- ### Kotlin Basic
 
 In progress.
 
----
+--- -->
 
 ### Kotlin Style Guide
 
@@ -63,7 +61,7 @@ In progress.
 
 ---
 
-### Android Core Concepts
+<!-- ### Android Core Concepts
 
 - [Activities](concepts/Activities.md)
 - Adapters
@@ -92,7 +90,7 @@ In progress.
 - Views
 - [XML](concepts/XML.md)
 
----
+--- -->
 
 ### Lecture: Going Beyond
 
@@ -145,6 +143,10 @@ In progress.
         - Beyond scope of this class - [Implementing a Custom `FragmentManager` to reduce errors when dealing with fragment transaction](https://medium.com/thoughts-overflow/how-to-add-a-fragment-in-kotlin-way-73203c5a450b)
         - [Step-by-step tutorial for creating fragments](https://www.techotopia.com/index.php/An_Introduction_to_Kotlin_Android_Fragments)
         - [Using Fragments in Android](https://www.techotopia.com/index.php/Using_Fragments_in_Android_Studio_-_A_Kotlin_Example) - The example involves creating and using a Tab bar, which is not what we have taught you yet.
+- Week 6:
+  - May 1st:
+    - Slides: [View](http://slides.com/naruthkongurai/info448-android-w6-lecture-may1/fullscreen)
+    - Resources on XML and JSON can be found in the slide.
 
 ---
 
@@ -194,13 +196,28 @@ Aside from external links that you might be finding useful to help you tackle th
   - Make sure you understand how each layout in Android works in order to "equally balanced" the app on each device.
   - A good approach for solving orientation issues is to use [Constraint Layout](https://developer.android.com/training/constraint-layout/index.html)!
   - There are lots of ways to solve the layout issue. You can, if you want to, nest Linear Layouts inside a Relative Layout that is acting as a parent element. Whatever you choose, make sure it fits the design that you're trying to achieve.
-- Homework 7-10 (QuizDroid):
+- Homework 7-10 (**QuizDroid** - Part 1 to 4):
   - Intent:
     - `Intents` are used to go from one Activity to another and they also allow you to pass data in the process.
     - Many ways are available for you to pass an object (`String`, `ArrayList`, and etc.) to another Activity!
   - Fragments:
     - Learn more about them before diving into the code itself. Lots of resources are provided (see the [Lecture: Going Beyond](#lecture-going-beyond) section)
     - See section's slide on Apr 25th (Week 5) to learn more about Fragments.
+  - Companion objects:
+    - They are esentially an object declaration inside a class. But they're useful to know and utilize.
+    - [Objects Declaration](https://kotlinlang.org/docs/reference/object-declarations.html)
+    - This Stackoverflow [question](https://stackoverflow.com/questions/40352684/what-is-the-equivalent-of-java-static-methods-in-kotlin/40352734#40352734) deals with how to convert Java `static methods` to Kotlin.
+  - Interface:
+    - It's important to know how to create an `Interface`. You also should know how to have a class implement one. Learn more about it [here](https://kotlinlang.org/docs/reference/interfaces.html) from Kotlin's official documentation.
+  - JSON:
+    - Kotlin - [JSON](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.js/-j-s-o-n/index.html)
+    - How to retrive JSON file to your device/emulator?
+      - DroidNews - [How to push / pull files on Android using ADB](http://www.droidviews.com/push-pull-files-android-using-adb-commands/)
+      - Use any external libraries or establish online connection to fetch results.
+  - Action Bar:
+    - Make sure you understand how the Action Bar works, how to add a button to it by overriding `onCreateOptionMenus(...)` and `onOptionsItemSelected(..)`
+    - Android Official - [Learn more about App Bar](https://developer.android.com/training/appbar/)
+    - CodePath - [Defining the ActionBar](https://github.com/codepath/android_guides/wiki/Defining-The-ActionBar) (Android guide)
 
 ---
 
