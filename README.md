@@ -147,6 +147,12 @@ In progress.
   - May 1st:
     - Slides: [View](http://slides.com/naruthkongurai/info448-android-w6-lecture-may1/fullscreen)
     - Resources on XML and JSON can be found in the slide.
+  - May 3rd:
+- Week 7:
+  - May 8th:
+  - May 10th:
+- Week 8:
+  - May 15th:
 
 ---
 
@@ -196,7 +202,7 @@ Aside from external links that you might be finding useful to help you tackle th
   - Make sure you understand how each layout in Android works in order to "equally balanced" the app on each device.
   - A good approach for solving orientation issues is to use [Constraint Layout](https://developer.android.com/training/constraint-layout/index.html)!
   - There are lots of ways to solve the layout issue. You can, if you want to, nest Linear Layouts inside a Relative Layout that is acting as a parent element. Whatever you choose, make sure it fits the design that you're trying to achieve.
-- Homework 7-10 (**QuizDroid** - Part 1 to 4):
+- Homework 7-10, 12 (**QuizDroid** - Part 1 to 5):
   - Intent:
     - `Intents` are used to go from one Activity to another and they also allow you to pass data in the process.
     - Many ways are available for you to pass an object (`String`, `ArrayList`, and etc.) to another Activity!
@@ -218,6 +224,24 @@ Aside from external links that you might be finding useful to help you tackle th
     - Make sure you understand how the Action Bar works, how to add a button to it by overriding `onCreateOptionMenus(...)` and `onOptionsItemSelected(..)`
     - Android Official - [Learn more about App Bar](https://developer.android.com/training/appbar/)
     - CodePath - [Defining the ActionBar](https://github.com/codepath/android_guides/wiki/Defining-The-ActionBar) (Android guide)
+  - Request Permissions:
+    - [Request App Permissions](https://developer.android.com/training/permissions/requesting)
+    - [Permissions Overview](https://developer.android.com/guide/topics/permissions/overview)
+    - When using an Android phone running Android 6.0 or higher, permissions can become a problem. Read more [here](Runtime requests (Android 6.0 and higher)
+    - `READ_EXTERNAL_STORAGE` might be useful :)
+  - Shared Preferences:
+    - [Official documentation](https://developer.android.com/reference/android/content/SharedPreferences)
+    - [Example](https://stackoverflow.com/questions/23024831/android-shared-preferences-example) from StackOverflow
+  - HTTP Connection:
+    - A tutorial on how to establish a connection to the Internet - Click [here](http://javasampleapproach.com/android/kotlin-http-call-with-asynctask-example-android)
+  - URL:
+    - [Official documentation](https://kotlinlang.org/api/latest/jvm/stdlib/org.w3c.dom.url/-u-r-l/index.html)
+    - Basic parameter: `URL(url: String, base: String = definedExternally)`
+    - Reading text through `.readText()` command :)
+  - JSON:
+    - One way to parse / create JSON objects is to use an external library called [Gson](https://github.com/google/gson).
+- Homework 11, 13 (Are We There Yet - Part 1 & 2)
+  - SMS Messages
 
 ---
 
@@ -245,7 +269,12 @@ Aside from external links that you might be finding useful to help you tackle th
       - Get started [here](https://constraintlayout.com/basics/create_constraint.html)
       - Offers tutorials on how to work with ConstraintLayout, what properties such as `Constriant Bias`, `Margin`, `Padding`, and `Barrier` are
 - Week 5: April 25th
-  - Slides: [Week 5](https://slides.com/naruthkongurai/info448-android-w5) 
+  - Slides: [Week 5](https://slides.com/naruthkongurai/info448-android-w5)
+- Week 6: May 2nd
+  - Slides: [Week 6](https://slides.com/naruthkongurai/info448-android-w6)
+- Week 7: May 9th
+  - Slides: [Week 7](https://slides.com/naruthkongurai/info448-android-w7)
+    - React Native - how to set it up on your machine, pros and cons, applications that are using it
 
 ---
 
@@ -263,7 +292,26 @@ In progress.
 
 Before diving in to what React Native really is, read this article I've written on [Native vs. Non-native Apps](articles/Native_Non-native.md)
 
-In progress.
+Installing React Native:
+
+```bash
+npm install -g create-react-native-app
+create-react-native-app AwesomeProject
+cd AwesomeProject
+brew install watchman            # for mac user
+npm start
+```
+
+Previewing the app:
+
+[More information](https://facebook.github.io/react-native/docs/getting-started.html)
+
+```bash
+npm run android
+npm run ios
+```
+
+Learn more about React Native, how to set it up on your machine, and the downside to it [here](https://slides.com/naruthkongurai/info448-android-w7/).
 
 #### Flutter
 
