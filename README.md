@@ -21,20 +21,14 @@ Something interesting you want to point out or let me cover on, submit an issue 
     - [Homework Hints](#homework-hints)
     - [Lab Meetings](#lab-meetings)
     - [Libraries](#libraries)
-      - [Dagger 2](#dagger-2)
       - [Firebase](#firebase)
       - [React Native](#react-native)
-      - [Flutter](#flutter)
-      - [RxJava](#rxjava)
+      - [Other Libraries/Frameworks to Know](#other-librariesframeworks-to-know)
     - [Resources](#resources)
       - [Articles/Websites on Android Development](#articleswebsites-on-android-development)
       - [Core Documentation](#core-documentation)
       - [Videos/Courses](#videoscourses)
       - [Editors](#editors)
-        - [IntelliJ IDEA](#intellij-idea)
-        - [Android Studio](#android-studio)
-        - [VS COde](#vs-code)
-      - [Testing Your Application / Code](#testing-your-application--code)
       - [Publishing Your Application to the Google Play Store](#publishing-your-application-to-the-google-play-store)
       - [Popular Open-Source Android Apps](#popular-open-source-android-apps)
     - [Common Questions](#common-questions)
@@ -144,15 +138,14 @@ In progress.
         - [Step-by-step tutorial for creating fragments](https://www.techotopia.com/index.php/An_Introduction_to_Kotlin_Android_Fragments)
         - [Using Fragments in Android](https://www.techotopia.com/index.php/Using_Fragments_in_Android_Studio_-_A_Kotlin_Example) - The example involves creating and using a Tab bar, which is not what we have taught you yet.
 - Week 6:
-  - May 1st:
-    - Slides: [View](http://slides.com/naruthkongurai/info448-android-w6-lecture-may1/fullscreen)
-    - Resources on XML and JSON can be found in the slide.
-  - May 3rd:
+  - Slides: [View](http://slides.com/naruthkongurai/info448-android-w6-lecture-may1/fullscreen)
+  - Resources on XML and JSON can be found in the slide.
 - Week 7:
-  - May 8th:
-  - May 10th:
-- Week 8:
-  - May 15th:
+- Week 8 (Optional lecture):
+  - May 15th: Student's presentations
+  - May 17th: Unit Testing
+    - [Building effective unit testings](https://developer.android.com/training/testing/unit-testing/)
+    - [JUnit](https://developer.android.com/training/testing/junit-runner)
 
 ---
 
@@ -242,6 +235,10 @@ Aside from external links that you might be finding useful to help you tackle th
     - One way to parse / create JSON objects is to use an external library called [Gson](https://github.com/google/gson).
 - Homework 11, 13 (Are We There Yet - Part 1 & 2)
   - SMS Messages
+    - [Sending SMS Message with Kotlin in 30 seconds](https://www.twilio.com/blog/2018/03/send-an-sms-message-with-kotlin-in-30-seconds.html)
+    - Remember how intents are constructed and passed.
+    - Get familiar with the SMSManager class
+    - Have you set permissions?
 
 ---
 
@@ -275,18 +272,27 @@ Aside from external links that you might be finding useful to help you tackle th
 - Week 7: May 9th
   - Slides: [Week 7](https://slides.com/naruthkongurai/info448-android-w7)
     - React Native - how to set it up on your machine, pros and cons, applications that are using it
+- Week 8: May 16th - No section
+- Week 9: May 23rd
+  - Slides: [Week 9](https://slides.com/naruthkongurai/info448-android-w9)
 
 ---
 
 ### Libraries
 
-#### Dagger 2
+<!-- #### Dagger 2
 
-In progress.
+In progress. -->
 
 #### Firebase
 
-In progress.
+Firebase is an extremely popular tool created by Google that makes it so much easier to develop applications. It offers tools for developing Android apps, iOS apps, and even web applications!
+
+Since our focus is on Android development, the first thing you'll want to check out is the [official documentation](https://firebase.google.com/docs/android/setup).
+
+**Setting Firebase in Your Android Project:**
+
+*More coming soon!*
 
 #### React Native
 
@@ -313,17 +319,17 @@ npm run ios
 
 Learn more about React Native, how to set it up on your machine, and the downside to it [here](https://slides.com/naruthkongurai/info448-android-w7/).
 
-#### Flutter
+#### Other Libraries/Frameworks to Know
 
-In progress.
-
-#### RxJava
-
-In progress.
+- Flutter
+- RxJava
+- Dagger / Dagger 2
 
 ---
 
 ### Resources
+
+More links to articles are listed throughout the guide. You can find several of them down below and from the Homework, Lecture, and Section sections.
 
 #### Articles/Websites on Android Development
 
@@ -349,27 +355,11 @@ In progress.
 
 #### Editors
 
-##### IntelliJ IDEA
+- IntelliJ IDEA
+- Android Studio
+- VS Code
 
-In progress.
-
-**Setting up:**
-
-**Plugins:**
-
-##### Android Studio
-
-In progress.
-
-**Setting up:**
-
-**Plugins:**
-
-##### VS COde
-
-In progress.
-
-#### Testing Your Application / Code
+<!-- #### Testing Your Application / Code
 
 In progress.
 
@@ -379,7 +369,7 @@ In progress.
 
 #### Popular Open-Source Android Apps
 
-In progress.
+In progress. -->
 
 ---
 
